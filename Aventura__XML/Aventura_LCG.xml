@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aventura titulo = "THE LOST CITY - VERSION LA CORUÑA">
+	
+<escena codigo = "1">
+
+<texto>
+La Coruña está amenazada por una bomba nuclear que podría exterminarla de la faz de la tierra. Debes buscar la forma de desactivarla,
+pero cuando comienzas tu investigación, sufres un ataque y te desmayas. De repente te despiertas desorientado, miras a tu alrededor y ves 
+que estás en los aledaños de la Torre de Hércules. Puedes subir a la torre, caminar hacia la Casa de los Peces, o ir a la Domus....
+</texto>
+
+<opcion resultado = "6" texto = "Subes a la torre" OpcionUsuario = "1" />
+<opcion resultado = "2" texto = "Caminas hacia la Casa de los Peces" OpcionUsuario = "2"/>
+<opcion resultado = "4" texto = "Vas a la Domus" OpcionUsuario = "3" />
+
+</escena>
+		
+<escena codigo = "2">
+
+<texto>
+Una vez dentro tienes varias opciones: dirigirte a la Sala Nautilus,
+visitar a las focas en el exterior o buscar el póster de 20.000 leguas de viaje submarino...
+</texto>
+
+<opcion resultado = "7" texto = "Vas a la Sala Nautilus" OpcionUsuario = "1" />
+<opcion resultado = "3" texto = "Visitas a las focas" OpcionUsuario = "2" />
+<opcion resultado = "5" texto = "Buscas el póster" OpcionUsuario = "3" />
+
+</escena>
+		
+<escena codigo = "3">
+
+<texto>
+Una intuición te dice que la foca Paquito, estrella del Aquarium, tiene respuestas. 
+Ves que, de los bigotes, le cuelga un post-it...puedes lanzarte a quitárselo, pedírselo educadamente o salir de allí y dirigirte a la Domus
+</texto>
+
+<opcion resultado = "8" texto = "Lanzarte a por el post-it" OpcionUsuario = "1" />
+<opcion resultado = "9" texto = "Pedírselo educadamente" OpcionUsuario = "2" />
+<opcion resultado = "4" texto = "Ir a la Domus" OpcionUsuario = "3" />
+
+</escena>
+		
+<escena codigo = "4">
+<texto>En la Domus puedo visitar el nuevo vídeo del parto, comprobar tu fuerza tirando el balón contra la portería o arriesgarte con los olores...</texto>
+<opcion resultado = "10" texto = "Ves el vídeo del parto" OpcionUsuario = "1" />
+<opcion resultado = "11" texto = "Juegas con el balón" OpcionUsuario = "2" />
+<opcion resultado = "5" texto = "Te arriesgas con los olores" OpcionUsuario = "3" />
+</escena>
+
+<escena codigo = "5">
+
+<texto>
+Encuentras una nota escondida que dice "Corta el rojo"... puedes confiar o no...está en tus manos
+</texto>
+
+<opcion resultado = "12" texto = "Llamas a los artificieros y les dices que corten el rojo" OpcionUsuario = "1" />
+<opcion resultado = "13" texto = "Llamas a los artificieros y les dices que corten el azul" OpcionUsuario = "2" />
+
+</escena>
+		
+		
+<escena codigo="6">
+
+<texto> Tras 234 escaleras pierdes el conocimiento y la bomba nuclear explota...
+¡La Coruña ha sido exterminada del planeta!
+</texto>
+
+</escena>
+		
+<escena codigo="7">
+<texto>
+Te relajas demasiado observando los peces y te quedas dormido....la bomba nuclear explota...
+¡La Coruña ha sido exterminada del planeta!
+</texto>
+
+</escena>
+	
+<escena codigo="8">
+
+<texto>
+La foca Paquito está harta de vivir encerrada, tiene muy mala leche y se enzarza contigo, te ahogas y la bomba nuclear explota...
+¡La Coruña ha sido exterminada del planeta!
+</texto>
+
+</escena>
+		
+<escena codigo="9">
+
+<texto>
+Aunque tienes grandes dotes para hablar el idioma de las focas, el post-it se cae de los bigotes de Paquito y borra el mensaje....la bomba nuclear explota...
+¡La Coruña ha sido exterminada del planeta!
+</texto>
+
+</escena>
+		
+<escena codigo="10">
+
+<texto>
+Menudo mareo...te desmayas y la bomba nuclear explota...
+¡La Coruña ha sido exterminada del planeta!
+</texto>
+
+</escena>
+		
+<escena codigo="11">
+
+<texto>
+Te retas contigo mismo y acabas perdiendo un tiempo muy valioso....la bomba nuclear explota...
+¡La Coruña ha sido exterminada del planeta!
+</texto>
+
+</escena>
+		
+<escena codigo="12">
+
+<texto>
+Demasiado confiado....la bomba nuclear explota...
+¡La Coruña ha sido exterminada del planeta!
+</texto>
+
+</escena>
+		
+<escena codigo="13">
+<texto>
+¡Gran intución! ¡Has salvado a la ciudad de La Coruña!
+</texto>
+
+</escena>
+		
+		
+</aventura>
+
+
+
+
+
+
+
+
+
+
+
+

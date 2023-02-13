@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aventura titulo = "THE LOST CITY - VERSION NUEVA YORK">
+	
+<escena codigo = "1">
+
+<texto>
+Nueva York está amenazada por una bomba nuclear que podría exterminarla de la faz de la tierra.
+Debes buscar la forma de desactivarla, pero cuando comienzas tu investigación, sufres un ataque y te desmayas.
+De repente te despiertas desorientado, miras a tu alrededor y ves que estás en Times Square.
+Puedes subir a las escaleras rojas buscando respuestas, continuar tu camino hacia Broadway o parar a comer algo en Shake Shack
+</texto>
+			
+<opcion resultado = "6" texto = "Subes a las escaleras rojas" OpcionUsuario = "1" />
+<opcion resultado = "2" texto = "Sigues hacia Broadway" OpcionUsuario = "2"/>
+<opcion resultado = "14" texto = "Paras a comer algo" OpcionUsuario = "3" />
+
+</escena>
+		
+<escena codigo = "2">
+
+<texto>
+En tu paseo por Broadway, ves que en el teatro Majestic están emitiendo "El fantasma de la Ópera...tal vez dentro haya respuestas...
+puedes entrar y buscar en el teatro, bajar al sur hacia el Empire State Building o ir al norte hacia Central Park
+</texto>
+
+<opcion resultado = "7" texto = "Entrar en el teatro" OpcionUsuario = "1" />
+<opcion resultado = "3" texto = "Ir al sur" OpcionUsuario = "2" />
+<opcion resultado = "5" texto = "Ir al norte" OpcionUsuario = "3" />
+
+</escena>
+		
+<escena codigo = "3">
+
+<texto> 
+Una vez en el Empire State tienes varias opciones: preguntar en el hall por si alguien sabe algo, cambiar de ruta hacia el norte o subir a la azotea y buscar pistas
+</texto>
+
+<opcion resultado = "8" texto = "Preguntas en el hall" OpcionUsuario = "1" />
+<opcion resultado = "9" texto = "Cambias de ruta" OpcionUsuario = "2" />
+<opcion resultado = "4" texto = "Subes a la azotea" OpcionUsuario = "3" />
+
+</escena>
+
+<escena codigo = "4">
+
+<texto>
+Una vez en la azotea puedes preguntarle a los turistas que están por la zona, hacerte un selfie o revisar el suelo buscando pistas...
+</texto>
+
+<opcion resultado = "10" texto = "Preguntarle a los turistas" OpcionUsuario = "1" />
+<opcion resultado = "11" texto = "Hacerte un selfie" OpcionUsuario = "2" />
+<opcion resultado = "5" texto = "Revisar el suelo" OpcionUsuario = "3" />
+
+</escena>
+		
+<escena codigo = "5">
+
+<texto>
+De repente, te encuentras lo que parece un mensaje. Te fijas bien y ves que dice "Corta el rojo"... puedes confiar o no...está en tus manos
+</texto>
+
+<opcion resultado = "12" texto = "Llamas a los artificieros y les dices que corten el rojo" OpcionUsuario = "1" />
+<opcion resultado = "13" texto = "Llamas a los artificieros y les dices que corten el azul" OpcionUsuario = "2" />
+
+</escena>
+		
+		
+<escena codigo="6">
+
+<texto> 
+Muchos turistas y pocas respuestas...menuda pérdida de tiempo...la bomba nuclear explota....
+¡Nueva York ha sido exterminada del planeta!
+</texto>
+        
+</escena>
+		
+<escena codigo="7">
+
+<texto>
+En medio de tu búsqueda te despistas y te quedas viendo la función...la bomba nuclear explota....
+¡Nueva York ha sido exterminada del planeta!
+</texto>
+
+</escena>
+	
+<escena codigo="8">
+
+<texto>
+Tu nivel de inglés no es suficiente y acabas discutiendo con el botones del edificio....la bomba nuclear explota....
+¡Nueva York ha sido exterminada del planeta!
+</texto>
+
+</escena>
+		
+<escena codigo="9">
+<texto>
+Te has perdido y el roaming está fallando, te quedas bloqueado sin hacer nada....la bomba nuclear explota....
+¡Nueva York ha sido exterminada del planeta!
+</texto>
+
+</escena>
+		
+<escena codigo="10">
+
+<texto>
+Los chinos son agradables pero no tienen ni idea de ninguna bomba por lo que pierdes el tiempo y la bomba explota...
+¡Nueva York ha sido exterminada del planeta!
+</texto>
+
+</escena>
+		
+<escena codigo="11">
+
+<texto>
+Te haces una foto digna de enmarcar pero esto no ayuda en tu búsqueda....la bomba nuclear explota....
+¡Nueva York ha sido exterminada del planeta!
+</texto>
+
+</escena>
+		
+<escena codigo="12">
+
+<texto>
+Demasiado confiado....la bomba nuclear explota...
+¡Nueva York ha sido exterminada del planeta!
+</texto>
+
+</escena>
+		
+<escena codigo="13">
+
+<texto>
+¡Gran intución! ¡Has salvado a la ciudad de Nueva York!
+</texto>
+
+</escena>
+
+<escena codigo = "14">
+
+<texto>
+Ha sido una buena idea, la hamburguesa te ha dado fuerzas....ahora debes escoger entre hacer la digestión dando un paseo, dirigirte al Empire State Building o ir a Central Park
+</texto>
+
+<opcion resultado = "15" texto = "Dar un paseo " OpcionUsuario = "1" />
+<opcion resultado = "3" texto = "Ir al Empire State Building " OpcionUsuario = "2" />
+<opcion resultado = "5" texto = "Ir a Central Park" OpcionUsuario = "3" />
+
+</escena>	
+
+
+<escena codigo="15">
+
+<texto>
+¿La ciudad amenazada y tú de paseo?
+Evidentemente ha sido una mala elección....la bomba nuclear explota...
+¡Nueva York ha sido exterminada del planeta!
+</texto>
+
+</escena>	
+		
+</aventura>
+
+
+
+
+
+
+
+
+
+
+
+
