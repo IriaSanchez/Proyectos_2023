@@ -1,0 +1,48 @@
+/* Estilos para los botones */
+button {
+  border: 1px solid #d3d3d3;
+  background: white;
+  padding: 10px;
+  float: left;
+}
+
+button:hover {
+  color: whitesmoke;
+  background-color: #d3d3d3;
+  border: 1px solid #d3d3d3;
+  transition: 0.5s;
+}
+
+/* Estilos para el contenedor central */
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  background: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Estilos para las filas del formulario */
+.form-row {
+  width: 90%;
+}
+
+/* Estilos para el div del título */
+.titleDiv {
+  text-align: center;
+}
+
+/* Estilos para el espacio entre elementos */
+.space {
+  margin-right: 10px;
+}
+
+/* Estilos para la tabla de archivos */
+.fileTable {
+  width: 91.3%;
+}

@@ -1,0 +1,30 @@
+<!-- Encabezado -->
+<h1 class="titleText2">{{'EDITAR' | oTranslate }}</h1>
+
+<!-- Formulario -->
+<o-form #formproducts service="products" entity="product" keys="id" header-actions="" show-header-navigation="no"
+  keys-sql-types="INTEGER" class="form-background">
+  <div>
+    <div class="center">
+      <!-- Fila de entrada de texto -->
+      <o-row class="form-row">
+        <o-text-input class="input-padding space" attr="name" fxFlex="50" required="yes"></o-text-input>
+        <!-- Entrada de archivo -->
+        <o-file-input #fileinput attr="file" fxFlex="50" label="{{'SUBIR_DOCUMENTOS' | oTranslate }}" service="products"
+          entity="upload" max-file-size="100000" multiple="yes" max-num-files="5" split-upload="false"
+          [additional-data]="getFileData()" (onUpload)="onUploadFiles($event)"
+          (onError)="onError($event)"></o-file-input>
+      </o-row>
+
+      <!-- Tabla de archivos -->
+      <o-table #filetable attr="productsFilesTable" class="fileTable" service="products" entity="file" keys="id"
+        parent-keys="product_id:id" columns="id;name" visible-columns="name;action" controls="true" delete-button="true"
+        insert-button="false" refresh-button="false" show-buttons-text="false" select-all-checkbox="true">
+        <o-table-column attr="action" width="64px">
+          <o-table-cell-renderer-action (onClick)="actionClick($event)" icon="download"></o-table-cell-renderer-action>
+        </o-table-column>
+      </o-table>
+
+    </div>
+  </div>
+</o-form>
